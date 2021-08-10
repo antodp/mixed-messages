@@ -12,5 +12,6 @@ const factoryUser = name => {
 }
 
 const Antonio = factoryUser("Antonio");
-console.log(Antonio);
+
+console.log("You are "+Antonio.name+". Your informations are: "+Antonio.planet+", "+Antonio.season+", "+Antonio.time+".");
 
